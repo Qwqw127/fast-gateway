@@ -24,7 +24,8 @@ const MYSQL_DATABASE_CONFIG = {
   ...MYSQL_CONFIG,
   NamedNodeMap: new NamingStrategy(),
   entities: [path.join(__dirname, `../../../../**/*.${MYSQL_CONFIG.entities}.entity{.ts,.js}`)],
-  // entities: [Privilege, Resource, Role, RolePrivilege, System, User, UserRole]
+  // entities: [Privilege, Resource, Role, RolePrivilege, System, User, UserRole],
+  synchronize:false
 }
 
 const MONGODB_DATA_SOURCE = new DataSource(MONGODB_DATABASE_CONFIG)
