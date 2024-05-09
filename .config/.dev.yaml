@@ -14,14 +14,14 @@ MYSQL_CONFIG:
   host: "127.0.0.1"
   port: 3306
   username: "root"
-  password: "1234qwer"
+  password: "admin_kkx123"
   database: "userTest"
   entities: "mysql"
   synchronize: true
 REDIS_CONFIG:
   host: "127.0.0.1"
   port: 6379
-  auth: "1234qwer"
+  auth: "123456"
   db: 0
 TEST_VALUE:
   name: "cookie"
